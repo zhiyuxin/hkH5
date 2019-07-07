@@ -1,0 +1,555 @@
+body {
+    background: url("../img/HKC_bg.jpg") no-repeat top left;
+    background-size: cover;
+}
+
+/*版心容器*/
+.content {
+    width: 100%;
+    height: auto;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    margin: 0 auto;
+}
+
+.top {
+    position: fixed;
+    top: -33px;
+    width: 100%;
+    height: 138px;
+    background: url("../img/top.jpg") no-repeat center center;
+    background-size: contain;
+    z-index: 999;
+}
+
+/*轮播图*/
+ul, ol {
+    padding: 0;
+}
+
+.banner {
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    height: 290px !important;
+    background: url("../img/HKC_17.png") no-repeat center center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.banner li {
+    list-style: none;
+}
+
+.banner ul li {
+    float: left;
+}
+
+#b04 .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+#b04 .dots li {
+    display: inline-block;
+    width: 32px;
+    height: 4px;
+    margin: 0 4px;
+    text-indent: -999em;
+    background: #4BE2FE;
+    /*border-radius: 6px;*/
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+
+#b04 .dots li.active {
+    height: 8px;
+    background: #4BE2FE;
+    opacity: 1;
+}
+
+#b04 ul li img {
+    width: 100%;
+}
+
+#b04 .arrow {
+    position: absolute;
+    top: 100px;
+}
+
+#b04 #al {
+    left: 15px;
+}
+
+#b04 #ar {
+    right: 15px;
+    transform: rotateZ(180deg);
+}
+
+/*API接入*/
+.apiList {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    background: url("../img/HKC_17.png") no-repeat center center;
+    background-size: cover;
+}
+
+.apiList .one {
+    width: 100%;
+    height: 120px;
+    /* line-height: 150px; */
+}
+
+.apiList .one div {
+    margin-top: 30px;
+}
+
+.apiList .one .leftImg {
+    width: 40%;
+    text-align: center;
+}
+
+.apiList .one .leftImg img {
+    width: 60%;
+}
+
+.apiList .one .wordList {
+    width: 60%;
+}
+
+.apiList .one .wordList p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.apiList .one .wordList p.topWord {
+    margin-bottom: 20px;
+}
+
+.apiList .one .wordList p.bottomWord {
+    line-height: 20px;
+}
+
+.apiListBtnBg {
+    width: 100%;
+    height: 3px;
+    background: url("../img/HKC_18.png") no-repeat center center;
+    background-size: contain;
+}
+
+/*游戏平台案例*/
+.showPltop {
+    height: 60px;
+}
+
+.showPltop .showPltopImg {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: url("../img/showPltop.png") no-repeat center center;
+    background-size: 50%;
+    background-position-x: 110px;
+}
+
+.showPltop .showPltopImg P {
+    position: absolute;
+    top: 10px;
+    left: 165px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.showPltopS {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../img/HKC_17.png") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.showPltopS .showBanner {
+    width: 100%;
+    height: auto;
+    background: url("../img/showPltopS.png") no-repeat center center;
+    background-size: 90%;
+    background-position-x: 20px;
+    background-position-y: 30px;
+}
+
+
+.showPltopS .showBanner .BannerContent {
+    position: relative;
+    top: 40px;
+    /*width: 530px;*/
+    height: 300px;
+    /*margin: 80px auto;*/
+}
+
+.showPltopS .showBanner ul.uItems01 li {
+    position: absolute;
+}
+
+.showPltopS .showBanner ul.uItems01 li img {
+    width: 80%;
+    margin: 5% 8% 0 10%;
+}
+
+.btn {
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+}
+
+.btnPrev01 {
+    top: 110px;
+    left: 5px;
+}
+
+.btnNext01 {
+    top: 90px;
+    right: 5px;
+    transform: rotateZ(180deg);
+}
+
+.showPltopS .showBanner ul.uItems02 li {
+    position: absolute;
+}
+
+.showPltopS .showBanner ul.uItems02 li img {
+    width: 80%;
+    margin: 5% 8% 0 10%;
+}
+
+.btn {
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+}
+
+.btnPrev02 {
+    top: 110px;
+    left: 5px;
+}
+
+.btnNext02 {
+    top: 90px;
+    right: 5px;
+    transform: rotateZ(180deg);
+}
+
+.showPltopS .showBanner ul.uItems03 li {
+    position: absolute;
+}
+
+.showPltopS .showBanner ul.uItems03 li img {
+    width: 80%;
+    margin: 5% 8% 0 10%;
+}
+
+.btn {
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+}
+
+.btnPrev03 {
+    top: 110px;
+    left: 5px;
+}
+
+.btnNext03 {
+    top: 90px;
+    right: 5px;
+    transform: rotateZ(180deg);
+}
+
+.more {
+    width: 100%;
+    text-align: center;
+    /*margin-top: 30px;*/
+}
+
+.more a {
+    display: inline-block;
+}
+
+.more a img {
+    width: 70%;
+}
+
+/*单款游戏展示*/
+.gameShow {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../img/HKC_17.png") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.gameShow .gameBanner {
+    width: 100%;
+    height: 376px;
+    background: url("../img/showPltopS.png") no-repeat center center;
+    background-size: 100%;
+}
+
+/*六大核心优势*/
+.showPltop .OurTopImg {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: url("../img/showPltop.png") no-repeat center center;
+    background-size: 50%;
+    background-position-x: 110px;
+}
+
+.showPltop .OurTopImg P {
+    position: absolute;
+    top: 10px;
+    left: 145px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.CoreList {
+    width: 100%;
+    height: 410px;
+}
+
+.CoreList > div {
+    width: 33%;
+    height: 190px;
+    float: left;
+}
+
+.CoreList > .Pl {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    color: #fff;
+}
+
+.CoreList > .Pl > .PlTop {
+    padding: 10px 20px 0 20px;
+}
+
+.CoreList > .Pl > .PlCenter {
+    padding: 5px;
+}
+
+.CoreList > .Pl > .PlBottom {
+    padding-bottom: 20px;
+}
+
+.CoreList > .Cn {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    color: #fff;
+}
+
+.CoreList > .Cn > .CnTop {
+    padding: 10px 20px 0 20px;
+}
+
+.CoreList > .Cn > .CnCenter {
+    padding: 5px;
+}
+
+.CoreList > .Cn > .CnBottom {
+    padding-bottom: 20px;
+}
+
+.CoreList > .Ey {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    color: #fff;
+}
+
+.CoreList > .Ey > .EyTop {
+    padding: 10px 20px 0 20px;
+}
+
+.CoreList > .Ey > .EyCenter {
+    padding: 5px 0 5px 0;
+}
+
+.CoreList > .Ey > .EyBottom {
+    padding-bottom: 20px;
+}
+
+
+.CoreList > .Cs {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    color: #fff;
+}
+
+.CoreList > .Cs > .CsTop {
+    font-size: 14px;
+    padding: 10px 20px 0 20px;
+}
+
+.CoreList > .Cs > .CsCenter {
+    padding: 5px 0 5px 0;
+}
+
+.CoreList > .Cs > .CsBottom {
+    padding-bottom: 20px;
+}
+
+.CoreList > .Se {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    color: #fff;
+}
+
+.CoreList > .Se > .SeTop {
+    padding: 10px 20px 0 20px;
+}
+
+.CoreList > .Se > .SeCenter {
+    padding: 5px;
+}
+
+.CoreList > .Se > .SeBottom {
+    padding-bottom: 20px;
+}
+
+.CoreList > .Sy {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    color: #fff;
+}
+
+.CoreList > .Sy > .SyTop {
+    padding: 10px 20px 0 20px;
+}
+
+.CoreList > .Sy > .SyCenter {
+    padding: 5px;
+}
+
+.CoreList > .Sy > .SyBottom {
+    padding-bottom: 20px;
+}
+
+/*全球联络机制*/
+.showPltop .ConTopImg {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: url("../img/showPltop.png") no-repeat center center;
+    background-size: 50%;
+    background-position-x: 110px;
+}
+
+.showPltop .ConTopImg P {
+    position: absolute;
+    top: 10px;
+    left: 155px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.ConList {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../img/HKC_17.png") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.ConList img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.ConListBtnBg {
+    width: 100%;
+    height: 3px;
+    background: url("../img/HKC_18.png") no-repeat center center;
+    background-size: contain;
+    margin: 30px 0 10px 0;
+}
+
+.mapText {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*联系我们*/
+.ContList {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("../img/HKC_09.png") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.ContList .ContTop {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.ContList .ContCenter {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+
+.ContList .ContBottom {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
